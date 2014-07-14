@@ -1,0 +1,118 @@
+/* ==========================================================================
+    Equipe
+   ========================================================================== */
+
+@import 'base';
+
+body {
+    font-family: 'Roboto' sans-serif;
+    background: url(/assets/img/bg/dots.png) repeat;
+
+}
+
+.container {
+    background: #fff url(/assets/img/bg/simple-990.jpg) no-repeat;
+    width: 990px;
+    &:after {
+        position:absolute;
+        display: block;
+        content: " ";
+        height: 190px;
+        width: 990px;
+        background: url(/assets/img/bg/footer-white.png) no-repeat;
+    }
+}
+
+.page-title {
+    color: #fff;
+    text-align: right;
+    height: 252px;
+    margin: 0 20px 0 0;
+    padding: 5px 0 0 0;
+
+    h2 {
+        font-size: 40px;
+        font-family: FvAlmelo, sans-serif;
+        margin:0;
+        font-weight: normal;
+        background:  url(/assets/img/bg/circle-line-500.png) no-repeat right bottom;
+    }
+}
+
+h3 {
+    font-family: FvAlmelo, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #5E656D;
+    font-size: 32px;
+    margin: -5px 0 0 0;
+}
+
+.intro {
+    margin-left: 30px;
+    background: red;
+    position: relative;
+    .text {
+        background: url(/assets/img/midia/line780.jpg) no-repeat left bottom;
+        float: left;
+        width: 770px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        h1 {
+            font-weight: normal;
+            font-family: RobotoLight, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #b0b0b0;
+            font-size: 35px;
+        }
+        span {
+            color: #434c51;
+        }
+    }
+
+    .download {
+        position: absolute;
+        right: 0;
+        a {
+            background: url(/assets/img/midia/presskit.png) no-repeat;
+            display: block;
+            text-indent: -9999px;
+            width: 161px;
+            height: 204px;
+            margin-right: 18px;
+            margin-top: -50px;
+        }
+    }
+}
+
+
+.midia {
+
+    margin: 25px 0 0 30px;
+    padding: 0;
+    list-style: none;
+
+    li {
+        text-align: center;
+        width: 180px;
+        display: inline-block;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .logo {
+        background: url(/assets/img/midia/bg.jpg) no-repeat center top;
+        height: 85px;
+        padding: 95px 0 0 0;
+    }
+    p {
+        line-height: 16px;
+        font-size: 14px;
+        color: #636363;
+    }
+
+    span {
+        color: #00b9a1;
+    }
+}

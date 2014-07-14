@@ -1,0 +1,146 @@
+/* ==========================================================================
+    Download APP
+   ========================================================================== */
+
+@import 'base';
+
+body {
+    font-family: 'Roboto' sans-serif;
+    background: url(/assets/img/bg/dots.png) repeat,
+                url(/assets/img/bg/simple-bg.png) no-repeat center -20px;
+}
+
+
+#mediabox {
+    background:  url(/assets/img/download-app/mediabox.png) no-repeat center top;
+}
+
+
+.download-app-container {
+
+    width: 990px;
+    margin: auto;
+
+    &:after {
+        position:absolute;
+        display: block;
+        content: " ";
+        height: 190px;
+        width: 990px;
+        background: url(/assets/img/bg/footer-white.png) no-repeat;
+    }
+
+    .box-top {
+        background: url(/assets/img/download-app/top.png) no-repeat center top;
+        height: 165px;
+        width: 990px;
+        margin-top: -416px;
+    }
+
+    .intro {
+        background: #fff;
+        padding: 15px 30px;
+        h1 {
+            margin: -20px 0 0 0;
+            font-weight: normal;
+            font-family: RobotoLight;
+            font-size: 44px;
+            color: #525252;
+        }
+        p {
+            margin: 10px 0 ;
+        }
+        em {
+            float: right;
+            margin: 0 25px -15px 0;
+            font-size: 14px;
+        }
+    }
+
+    .lojas {
+        background: url(/assets/img/download-app/stores.png) no-repeat center top;
+         height: 60px;
+         a {
+            float: right;
+            margin-top: 13px;
+         }
+        .google-play {
+            display: inline-block;
+            width: 118px;
+            height: 30px;
+            background: url(/assets/img/sprite.png) no-repeat -148px -230px;
+            text-indent: -9999px;
+        }
+        .app-store {
+            display: inline-block;
+            width: 95px;
+            height: 33px;
+            background: url(/assets/img/sprite.png) no-repeat -273px -227px;
+            text-indent: -9999px;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+    }
+
+
+
+    .platforms {
+        background: #fff url(/assets/img/download-app/v-line.jpg) no-repeat center center;
+        height: 680px;
+
+        .ios, .android {
+            height: 600px;
+            width: 48%;
+            span, strong, small {
+                display: block;
+            }
+            span {
+                font-family: RobotoLight, sans-serif;
+                font-size: 20px;
+            }
+            strong {
+                font-family: FvAlmelo, sans-serif;
+                font-size: 40px;
+                font-weight: normal;
+                line-height: 30px;
+            }
+            small {
+                color: #a0a0a0;
+                line-height: 15px;
+                margin-top: 5px;
+            }
+            .download-now {
+                display: inline-block;
+                background: url(/assets/img/sprite.png) no-repeat -158px -275px;
+                width: 60px;
+                height: 60px;
+                text-indent: -9999px;
+                margin-top: 5px;
+            }
+        }
+        .ios {
+            float: left;
+            background: url(/assets/img/download-app/iOS.jpg) no-repeat bottom center;
+            text-align: right;
+            .info {
+                margin-right: 40px;
+                .download-now {
+                    text-align: left;
+                }
+            }
+        }
+
+        .android {
+            float: right;
+            background: url(/assets/img/download-app/android.jpg) no-repeat bottom center;
+            .info {
+                margin-left: 50px;
+            }
+        }
+
+    }
+
+}
+
+
+

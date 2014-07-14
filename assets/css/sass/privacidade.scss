@@ -1,0 +1,58 @@
+/* ==========================================================================
+    Privacidade
+   ========================================================================== */
+
+@import 'base';
+
+body {
+    font-family: 'Roboto' sans-serif;
+    background: url(/assets/img/bg/dots.png) repeat;
+
+}
+
+.container {
+    background: #fff url(/assets/img/bg/simple-990.jpg) no-repeat;
+    width: 990px;
+    &:after {
+        position:absolute;
+        display: block;
+        content: " ";
+        height: 190px;
+        width: 990px;
+        background: url(/assets/img/bg/footer-white.png) no-repeat;
+    }
+}
+
+.page-title {
+    color: #fff;
+    text-align: right;
+    height: 252px;
+    margin: 0 20px 0 0;
+    padding: 5px 0 0 0;
+
+    h2 {
+        font-size: 40px;
+        font-family: FvAlmelo, sans-serif;
+        margin:0;
+        font-weight: normal;
+        background:  url(/assets/img/bg/circle-line-500.png) no-repeat right bottom;
+    }
+}
+
+h2 {
+    font-family: FvAlmelo, sans-serif;
+    font-weight: normal;
+//    color: #5E656D;
+    font-size: 25px;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: #3E4B53;
+}
+
+.content {
+    padding: 0 30px 30px 30px;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    margin: 0 0 0 0;
+    height: 780px;
+    text-align: center;
+}
+
+.slider {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 780px;
+    overflow: hidden;
+    display: block;
+}
+
+.slider li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: none;
+  display: none;
+  list-style-type:none;
+}
+
+.slider_text {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 780px;
+    overflow: hidden;
+    display: block;
+}
+
+.slider_text li {
+    margin: 0 0 0 0;
+    border: none;
+    display: none;
+    list-style-type:none;
+}

@@ -1,0 +1,116 @@
+/* ==========================================================================
+    Home
+   ========================================================================== */
+
+@import 'base';
+
+.home {
+    font-family: 'Roboto' sans-serif;
+    background: url(/assets/img/bg/dots.png) repeat,
+                url(/assets/img/bg/base-2.png) no-repeat 0 60px,
+                url(/assets/img/bg/base-1.png) no-repeat 0 45px;
+}
+
+/* ==========================================================================
+    mediabox
+   ========================================================================== */
+#mediabox {
+    text-align: center;
+}
+
+/* ==========================================================================
+
+   ========================================================================== */
+
+#box-visao-longevidade {
+    width: 500px;
+    float: right;
+
+    h3 {
+     //   background: url(/img/indicadores/) no-repeat;
+        display: inline-block;
+        // text-indent: -9999px;
+        width: 449px;
+        height: 238px;
+        position:absolute;
+    }
+
+    p {
+        color: #fff;
+        text-align: justify;
+        padding: 250px 55px 10px 0;
+        font-size: 18px;
+    }
+
+
+}
+
+
+#box-klip {
+    a {
+        background: url(/assets/img/bg/box-klip.png) no-repeat;
+        display: inline-block;
+        text-indent: -9999px;
+        width: 100%;
+        height: 485px;
+    }
+}
+
+
+#voce-sabia {
+        margin-left: -50px;
+        background: url(/assets/img/bg/voce-sabia.png) no-repeat center right;
+        margin-top:-15px;
+      //  text-indent: -9999px;
+        position:relative;
+        width: 95%;
+        height: 485px;
+
+        p {
+            width: 137px;
+            position: absolute;
+            right: 45px;
+            margin-top: 231px;
+            font-size: 13px;
+            text-align: right;
+        }
+        a {
+            color: #2AB79B;
+            text-decoration: none;
+        }
+}
+
+#box-download-app {
+    background: url(/assets/img/bg/baixar-app.png) no-repeat;
+    width: 491px;
+    height: 458px;
+    color: #363636;
+    h3{
+        padding: 85px 0 0 38px;
+    }
+
+    p {
+        width: 180px;
+        margin-left: 38px;
+        font-weight: 300;
+    }
+
+    small {
+        display: block;
+        margin-left: 38px;
+    }
+
+    .ios, .android {
+        width: 78px;
+        height: 76px;
+        text-indent: -9999px;
+        display: inline-block;
+    }
+
+    .ios {
+        margin: 10px 10px 0 38px;
+    }
+
+
+}
+

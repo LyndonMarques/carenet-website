@@ -1,0 +1,151 @@
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+#cboxWrapper {
+  max-width: none;
+}
+
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left;
+}
+
+#cboxContent {
+  position: relative;
+  margin-top: 20px;
+  background: rbga(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 5px solid #000;
+  background: #fff;
+}
+
+#cboxTitle {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #ccc;
+  margin: 0;
+}
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer;
+}
+
+.cboxPhoto {
+  float: left;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic;
+  margin: auto;
+}
+
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+
+#cboxError {
+  border: 1px solid #ccc;
+  padding: 50px;
+}
+
+#cboxCurrent {
+  display: none;
+}
+
+#cboxLoadingGraphic {
+  background: url(/assets/img/colorbox/loading.gif) no-repeat center center;
+}
+
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+  border: 0;
+  overflow: visible;
+  width: auto;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+#cboxSlideshow {
+  position: absolute;
+  top: -20px;
+  right: 90px;
+  color: #fff;
+}
+
+#cboxPrevious {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  margin-top: -32px;
+  background: url(/assets/img/colorbox/controls-custom.png) no-repeat 0 -44px;
+  width: 60px;
+  height: 56px;
+  text-indent: -9999px;
+  margin-left: -7px;
+}
+
+#cboxNext {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -32px;
+  background: url(/assets/img/colorbox/controls-custom.png) no-repeat bottom right;
+  width: 60px;
+  height: 56px;
+  text-indent: -9999px;
+  margin-right: -6px;
+}
+
+#cboxClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  background: url(/assets/img/colorbox/controls-custom.png) no-repeat 0 0;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999px;
+  margin-top: -5px;
+  margin-right: -7px;
+}
+
+#colorbox, #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
+  outline: 0;
+}

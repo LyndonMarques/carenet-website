@@ -1,0 +1,192 @@
+/* ==========================================================================
+    Equipe
+   ========================================================================== */
+
+@import 'base';
+
+body {
+    font-family: 'Roboto' sans-serif;
+    background: url(/assets/img/bg/dots.png) repeat;
+
+}
+
+.container {
+    background: #fff url(/assets/img/bg/simple-990.png) no-repeat;
+    width: 990px;
+    &:after {
+        position:absolute;
+        display: block;
+        content: " ";
+        height: 190px;
+        width: 990px;
+        background: url(/assets/img/bg/footer-white.png) no-repeat;
+    }
+}
+
+.page-title {
+    color: #fff;
+    text-align: right;
+    height: 252px;
+    margin: 0 20px 0 0;
+    padding: 5px 0 0 0;
+
+    h2 {
+        font-size: 40px;
+        font-family: FvAlmelo, sans-serif;
+        margin:0;
+        font-weight: normal;
+        background:  url(/assets/img/bg/circle-line-500.png) no-repeat right bottom;
+    }
+}
+
+h3 {
+    font-family: FvAlmelo, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #5E656D;
+    font-size: 32px;
+    margin: -5px 0 20px 0;
+}
+
+.entry {
+    background: url(/assets/img/bg/vertical-line.jpg) no-repeat center top;
+    margin-bottom: 60px;
+    .col {
+        width: 420px;
+        &:first-child {
+            float: left;
+            margin-left: 40px;
+        }
+        &:last-child {
+            float: right;
+            margin-right: 40px;
+        }
+    }
+
+    .photo {
+        float: left;
+        width: 210px;
+    }
+    .info {
+        float: left;
+        width: 208px;
+        h4 {
+            margin:15px 0;
+            font-size: 20px;
+            color: #676E75;
+        }
+        p {
+            margin: 0;
+            font-size: 14px;
+            color: #5E676F;
+        }
+        .more {
+            display: block;
+            font-weight: bold;
+            color: #5E666D;
+            text-decoration: none;
+        }
+
+    }
+}
+
+
+.social {
+    list-style: none;
+    margin:10px 0;
+    padding:0;
+    li {
+        display: inline-block;
+        a {
+            background: url(/assets/img/equipe/social-sprite.png) no-repeat left top;
+            display: block;
+            text-indent: -9999px;
+            width: 32px;
+            height: 32px;
+        }
+        &.linkedIn a {
+            background-position: -2px -2px;
+        }
+        &.twitter a {
+            background-position: -44px -2px;
+        }
+        &.email a {
+            background-position: -86px -2px;
+        }
+    }
+}
+
+.links-parceiros {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        padding-left: 1em;
+        line-height: 26px;
+        margin: 10px 15px 0 50px;
+
+        &:before {
+            text-indent: -18px;
+            content: "• ";
+            color: #B0B0B0;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 32px;
+            position:absolute;
+        }
+        a {
+            text-decoration: none;
+            color: #5E666D;
+            font-size: 20px;
+        }
+    }
+}
+
+#inline-content {
+    display: none;
+}
+
+.popup {
+    background:   url(/assets/img/equipe/popup-bg.jpg) repeat-x;
+    .col {
+        float: left;
+    }
+
+    .photo {
+        padding-top: 20px;
+        width: 235px;
+        text-align: center;
+
+    }
+
+    .text {
+        width: 650px;
+        h2 {
+            text-align: right;
+            color: #fff;
+            font-size: 40px;
+            font-family: FvAlmelo, sans-serif;
+            margin: 27px 0 60px 0;
+            font-weight: normal;
+            background:  url(/assets/img/bg/circle-line-500.png) no-repeat right bottom;
+        }
+
+        h3 {
+            text-align: left;
+            color: #B0B0B0;
+            font-family: RobotoLight;
+            font-size: 33px;
+            line-height: 33px;
+        }
+
+        p {
+            color: #354047;
+        }
+
+        .scrollable {
+            height: 420px;
+        }
+    }
+}
+

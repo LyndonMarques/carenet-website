@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="../assets/css/faq.css">
+        <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+
+    </head>
+    <body class="home">
+
+        <div class="container">
+            <div class="page-title">
+                <h2>FAQ</h2>
+            </div>
+
+
+            <div class="row content">
+                <div class="questions col">
+                    <form>
+                        <h2>TÓPICOS</h2>
+                        <input type="text" placeholder="Procurar..."/>
+                        <input type="submit" />
+                    </form>
+
+                    <ul>
+                        <li>
+                            <a href="#" class="plus">Sobre a Carenet</a>
+                            <ol>
+                                <li>
+                                    <a href="#" class="plus">Qual É O Nosso Propósito?</a>
+                                   <ol>
+                                        Levamos a privacidade de dados muito a sério e tratamos como informações pessoais todas as informações recebidas e/ou armazenadas. As nossas políticas de privacidade de dados baseiam-se em enquadramentos locais e internacionais: Diretriz 95/46/EC do Parlamento e do Conselho Europeus de 24 de outubro de 1995 quanto à proteção de indivíduos com relação ao processamento de dados pessoais e à livre movimentação de tais dados. A Regra
+                                    </ol>
+                                </li>
+                                <li><a href="#">Qual É A Nossa Abordagem?</a></li>
+                                <li><a href="#">Como fazemos isso?</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="answers col">
+                    <h3>Como minha privacidade é protegida?</h3>
+                    <p>
+                        Levamos a privacidade de dados muito a sério e tratamos como informações pessoais todas as informações recebidas e/ou armazenadas. As nossas políticas de privacidade de dados baseiam-se em enquadramentos locais e internacionais: Diretriz 95/46/EC do Parlamento e do Conselho Europeus de 24 de outubro de 1995 quanto à proteção de indivíduos com relação ao processamento de dados pessoais e à livre movimentação de tais dados. A Regra de Privacidade HIPAA (EUA) proporciona proteção para informações pessoais de saúde detidas por entidades abrangidas e dá aos pacientes uma gama de direitos com respeito a tais informações.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+
+        <script src="../assets/js/plugins.js"></script>
+        <script src="../assets/js/main.js"></script>
+
+
+        <script type="text/javascript">
+
+            $(function () {
+
+                $(document).on('click', '.plus', function (e) {
+                    e.preventDefault();
+                    $(this).removeClass('plus')
+                           .addClass('minus')
+                           .next('ol')
+                           .slideDown();
+                });
+
+
+                 $(document).on('click', '.minus', function (e) {
+                    e.preventDefault();
+                    $(this).removeClass('minus')
+                           .addClass('plus')
+                           .next('ol')
+                           .slideUp();
+                });
+            });
+        </script>
+
+
+
+    </body>
+</html>
